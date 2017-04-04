@@ -2,10 +2,10 @@
 
 //connects to the database
 
-$db_name = "udemy_v2";
-$db_user = "root";
-$db_pass = "";
-$db_server = "localhost";
+$db_name = "***";
+$db_user = "***";
+$db_pass = "***";
+$db_server = "***";
 
 try {
 	$conn = new PDO("mysql:host=$db_server;dbname=$db_name",$db_user,$db_pass);
